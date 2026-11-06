@@ -2,6 +2,8 @@
 
 Has Eastern Germany closed the unemployment gap with the West, and is "the poor East" still the right picture today? This project tells a data-driven story of the German labour market across 35 years of federal state data.
 
+<p align="center"><img src="images/east_west_convergence.png" width="750" alt="Unemployment rate East vs. West vs. Berlin, 1991-2025"></p>
+
 ## Highlights
 
 - **Data**: Destatis Genesis-Online table **13211-0007**: registered unemployment as a percentage of the civilian labour force, 16 federal states, annual averages 1991–2025
@@ -13,7 +15,12 @@ Has Eastern Germany closed the unemployment gap with the West, and is "the poor 
 
 ## Results
 
-<img src="images/unemployment_map_2025.png" width="600" alt="Unemployment rate by federal state, 2025">
+<p align="center"><img src="images/east_west_gap.png" width="650" alt="East-West unemployment gap over time"></p>
+
+<p align="center">
+  <img src="images/unemployment_map_2025.png" width="49%" alt="Unemployment rate by federal state, 2025">
+  <img src="images/ranking_2025.png" width="49%" alt="Ranking of federal states, 2025">
+</p>
 
 | Finding | Value |
 |---|---|
@@ -37,7 +44,7 @@ The data supports the catch-up story: the East started far higher, improved the 
 | `13211-0007_en.csv` | Raw export from Destatis Genesis-Online |
 | `german_unemployment_data.csv` | Cleaned dataset (output of `data_process.ipynb`) |
 | `4_niedrig.geo.json` | GeoJSON of the German federal states, used for the map |
-| `images/unemployment_map_2025.png` | Static image of the 2025 state map |
+| `images/` | Charts used in this README, including a static image of the 2025 state map |
 | `requirements.txt` | Python dependencies |
 
 ## Data source
